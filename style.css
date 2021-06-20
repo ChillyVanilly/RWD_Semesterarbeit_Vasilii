@@ -898,6 +898,57 @@ footer {
 #stars {
   opacity: 30%;
 }
+@media scree and (max-width: 1563px){
+  .video-overlaytutorial {
+    position: relative;
+    max-width: 100%;
+    z-index: 300000;
+    color: #fff;
+    text-align: justify;
+    display: inline-block;
+    font-size: 3em;
+    overflow: hidden;
+  }
+ 
+  
+  .video-overlaytutorial h3 {
+    font-size: 3em;
+    margin-bottom: 10vh;
+    margin-top: -10%;
+  }
+  
+  .linie2 {
+    width: 30vh;
+    height: 5px;
+    background: #fff;
+    margin: 26px auto;
+    border-radius: 40%;
+  }
+  
+  .video-overlaytutorial p {
+    padding: 50px 10px 50px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .video-overlaytutorial p2 {
+    font-style: italic;
+    color: #8c8c8c;
+    flex-wrap: nowrap;
+  }
+  
+  .video-overlay p {
+    padding: 50px 10px 50px;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .video-overlay p2 {
+    font-style: italic;
+    color: #8c8c8c;
+    font-size: 1.5vw;
+  }
 }
 
 @media screen and (max-width: 1073px) {
