@@ -270,6 +270,15 @@ section img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bannerbild2 {
+  background-image: url('Shishakoffer01alt.png');
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .bannerbild3 {
   background-image: url('Shishakoffer03.png');
@@ -506,7 +515,7 @@ section img {
 .video-overlaytutorial p {
   padding: 50px 10px 50px;
   font-style: italic;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
   text-align: center;
 }
 
@@ -1329,6 +1338,15 @@ max-width: 100%;
 } */
   .bannerbild1 {
     background-image: url('Shishakoffer01alt.png');
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bannerbild2 {
+    background-image: url('Shishakoffer03.png');
     width: 100%;
     height: 300px;
     background-attachment: fixed;
