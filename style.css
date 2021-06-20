@@ -193,7 +193,6 @@ section img {
 
 #btn {
   position: absolute;
-  margin-top: 12%;
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
@@ -475,6 +474,29 @@ section img {
   display: inline-block;
   font-size: 1.5em;
 }
+.video-overlaytutorial {
+  position: absolute;
+  width: 100%;
+  margin-top: 30vh;
+  z-index: 300000;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+}
+.video-overlaytutorial h3
+{
+  font-size: 3em;
+}
+.video-overlaytutorial p {
+  padding: 50px 10px 50px;
+  font-style: italic;
+  text-align: center;
+}
+.video-overlaytutorial p2 {
+  font-style: italic;
+  color: #8c8c8c;
+}
 
 .video-overlay p {
   padding: 50px 10px 50px;
@@ -487,11 +509,10 @@ section img {
   color: #8c8c8c;
 }
 
-
 #btn3 {
   text-decoration: none;
   justify-content: center;
-  margin-top: 15vh;
+  margin-top: 8vh;
   display: inline-block;
   padding: 20px 20px;
   border-radius: 0px;
@@ -535,8 +556,15 @@ section img {
 .parttestimonials {
   overflow: hidden;
   width: 100%;
+  height: auto;
   text-align: center;
-  background: #fff;
+  background: #cfcfcf;
+}
+.parttestimonials h1
+{
+  font-size: 3em;
+  margin-top: 10vh;
+  margin-bottom: 8vh;
 }
 
 .testimonial {
@@ -547,10 +575,20 @@ section img {
 }
 
 .testimonial img {
-  margin-top: 8px;
+  margin-top: 50px;
+  margin-bottom: 10vh;
+  border-radius: 360%;
   vertical-align: middle;
-  width: 50%;
-  height: 50%;
+  max-width: 75%;
+  max-height: 75%;
+}
+.linie
+{
+  width: 240px;
+  height: 5px;
+  background: black;
+  margin: 26px auto;
+  border-radius: 40%;
 }
 
 .tutorial {
