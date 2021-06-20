@@ -582,6 +582,11 @@ section img {
   max-width: auto;
   padding: 0 4px;
 }
+.testimonial:hover {
+  font-size: 1.5em;
+  background: transparent;
+
+}
 .testimonial h3 {
   margin-bottom: 20px;
 }
