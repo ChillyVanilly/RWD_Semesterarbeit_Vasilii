@@ -506,6 +506,7 @@ section img {
 .video-overlaytutorial p {
   padding: 50px 10px 50px;
   font-style: italic;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -897,6 +898,7 @@ footer {
 #stars {
   opacity: 30%;
 }
+}
 
 @media screen and (max-width: 1073px) {
   .video-overlay p {
@@ -908,6 +910,54 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .parttestimonials {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #cfcfcf;
+  }
+  
+  .parttestimonials h1 {
+    font-size: 2em;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+  }
+  
+  .testimonial {
+    margin-top: 50px;
+    flex: 33.33%;
+    max-width: auto;
+    padding: 0 4px;
+  }
+  
+  .testimonial:hover {
+    font-size: 1.5em;
+    background: transparent;
+  }
+  
+  .testimonial h3 {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial i {
+    margin-top: 20px;
+  }
+  
+  .testimonial img {
+    margin-top: 50px;
+    margin-bottom: 10vh;
+    border-radius: 360%;
+    vertical-align: middle;
+    max-width: 75%;
+    max-height: 75%;
+  }
   .video-overlay {
     opacity: 0%;
   }
@@ -921,6 +971,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .tutorialgrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .griddesign img {
+    max-width: 50%;
+  }
   .lastpageheading {
     color: white;
     font-size: 1em;
@@ -1159,8 +1217,9 @@ footer {
   #btn2 {
     text-decoration: none;
     position: relative;
-    width: 100%;
-    display: inline-block;
+    width: 60%;
+    display: block;
+    margin: auto;
     border-radius: 0px;
     background: rgba(255, 0, 0, 0);
     color: #ffffff;
